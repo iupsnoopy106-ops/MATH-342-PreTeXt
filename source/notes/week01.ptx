@@ -14,9 +14,6 @@
   </introduction>
 
   <!-- Can also be <handout> instead of <subsection> to get a printable version -->
-  <subsection>
-    <title>Tuesday 1/20</title>
-
       <ul>
         <li> <p> Overview </p>
           <ul>
@@ -43,18 +40,9 @@
             <li> Investigate/Study the system under different conditions using the model</li>
           </ol>  
         </li>
-        <li> <url href="https://www.comap.com/contests/mcm-icm">COMAP</url> </li>
+        <li> <p><url href="https://www.comap.com/contests/mcm-icm">COMAP</url> </p></li>
+        <li> <p> Laplace Transform: Definitions, Theorems, Examples, MATHEMATICA       </p>
+        </li>
       </ul>  
  
-  </subsection>
-
-
-  <subsection>
-    <title>Thursday 1/22</title>
-
-    <p>
-    </p>
-  </subsection>
-
-
 </section>

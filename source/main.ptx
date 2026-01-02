@@ -38,23 +38,9 @@
 
     </chapter>
 
-    <chapter xml:id="activities">
-      <title>In-Class Activities</title>
-
-      <introduction>
-        <p>
-          These are copies of the in-class activities distributed during the semester.
-        </p>
-      </introduction>
-
-      <!-- Remove the example and replace with your own activities -->
-      <xi:include href="./activities/00-sample-activity.ptx"/>
-
-      <!-- Add more xi:include files here to include them in the main course -->
-    </chapter>
 
     <chapter xml:id="handouts">
-      <title>Handouts</title>
+      <title>Week 1 Handouts</title>
 
       <!-- Remove or comment out the sample and replace with your own handouts -->
       <!-- You can also comment out the entire chapter on Handouts until you are ready to include them -->
@@ -65,7 +51,7 @@
       <title>Homework</title>
 
       <!-- Remove or comment out the sample and replace with your own homework -->
-      <xi:include href="./homework/sample-homework.ptx"/>
+      <xi:include href="./homework/homework1.ptx"/>
 
     </chapter>
 
