@@ -34,7 +34,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "",
   "title": "Week 1 Handout- Laplace Transform",
-  "body": " Week 1 Handout- Laplace Transform   This is an outline of the topics we covered in the first week of class. You should have Jupyter Notebook , MATHEMATICA , and Octave ready before the 2nd week for practicing and doing assignments.     If is a function defined for , then the integral is the Laplace transform of provided the integral converges.  Sufficient conditions for existence:    must be piecewise continuous on     must be of exponential order for          A function is said to be exponential order if there exists constants and such that       is a linear transform, i.e.,         Evaluate     Evaluate where   Graph of a piecewise function   The graph of a piecewise function with two horizontal segments. From t equals 0 to t equals 3, the graph is on the t-axis at y equals 0, ending with an open circle at (3, 0). For t greater than or equal to 3, the graph is a horizontal line at y equals 2, starting with a closed circle at (3, 2).             If represents the Laplace transform of a function then is the inverse Laplace transform of     is a linear transform,                                        Use Theorem to find each of the followings:                 Using (b) in Theorem , should be 3. Thus     Using (e) in Theorem , is Thus          Find      can be written into two expressions:                  Conceptually, the original DE is transformed to another equation in a different space. Ideally, this new equation is easier to solve in the new space. Finally, the solution in the new space is transformed back to the original space using the inverse transformation.   Steps in solving an IVP by the Laplace transform      There are many other transformations and each one is considering a different space, which also means each one is more suitable for solving some particular types of DEs. This is a typical issue for most of algebraic approaches for solving ODEs or PDEs.     Suppose are continuous on , is piecewise continuous on and are of exponential order with as specified in . Then for  where      Use the Laplace transform to solve the IVP      MATHEMATICA     You should be familiar with using MATHEMATICA to verify your algebraic work.     LaplaceTransform[f(t),t,s]   Find using MATHEMATICA.  LaplaceTransform[Cos[4*t - 5], t, s]     InverseLaplaceTransform[F[s],s,t]  Find using MATHEMATICA.  InverseLaplaceTransform[((5*s-1)\/(s^2+7), s, t]        "
+  "body": " Week 1 Handout- Laplace Transform   This is an outline of the topics we covered in the first week of class. You should have Jupyter Notebook , MATHEMATICA , and Octave ready before the 2nd week for practicing and doing assignments.     If is a function defined for , then the integral is the Laplace transform of provided the integral converges.  Sufficient conditions for existence:    must be piecewise continuous on     must be of exponential order for          A function is said to be exponential order if there exists constants and such that       is a linear transform, i.e.,         Evaluate     Evaluate where   Graph of a piecewise function   The graph of a piecewise function with two horizontal segments. From t equals 0 to t equals 3, the graph is on the t-axis at y equals 0, ending with an open circle at (3, 0). For t greater than or equal to 3, the graph is a horizontal line at y equals 2, starting with a closed circle at (3, 2).             If represents the Laplace transform of a function then is the inverse Laplace transform of     is a linear transform,                                        Use Theorem to find each of the followings:                Find      Conceptually, the original DE is transformed to another equation in a different space. Ideally, this new equation is easier to solve in the new space. Finally, the solution in the new space is transformed back to the original space using the inverse transformation.   Steps in solving an IVP by the Laplace transform      There are many other transformations and each one is considering a different space, which also means each one is more suitable for solving some particular types of DEs. This is a typical issue for most of algebraic approaches for solving ODEs or PDEs.     Suppose are continuous on , is piecewise continuous on and are of exponential order with as specified in . Then for  where      Use the Laplace transform to solve the IVP    MATHEMATICA     You should be familiar with using MATHEMATICA to verify your algebraic work.     LaplaceTransform[f(t),t,s]   Find using MATHEMATICA.  LaplaceTransform[Cos[4*t - 5], t, s]     InverseLaplaceTransform[F[s],s,t]  Find using MATHEMATICA.  InverseLaplaceTransform[((5*s-1)\/(s^2+7), s, t]        "
 },
 {
   "id": "def-laplace",
@@ -97,7 +97,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "8",
   "title": "",
-  "body": " Use Theorem to find each of the followings:                 Using (b) in Theorem , should be 3. Thus     Using (e) in Theorem , is Thus       "
+  "body": " Use Theorem to find each of the followings:             "
 },
 {
   "id": "week1-handout-10",
@@ -106,7 +106,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "9",
   "title": "",
-  "body": "  Find      can be written into two expressions:                "
+  "body": "  Find    "
 },
 {
   "id": "week1-handout-11",
@@ -133,7 +133,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "13",
   "title": "",
-  "body": " Use the Laplace transform to solve the IVP     "
+  "body": " Use the Laplace transform to solve the IVP   "
 },
 {
   "id": "week1-handout-14",
