@@ -31,10 +31,10 @@ var ptx_lunr_docs = [
   "id": "week1-handout",
   "level": "1",
   "url": "week1-handout.html",
-  "type": "Handout",
+  "type": "Worksheet",
   "number": "",
   "title": "Week 1 Handout- Laplace Transform",
-  "body": " Week 1 Handout- Laplace Transform      If is a function defined for , then the integral is the Laplace transform of provided the integral converges.  Sufficient conditions for existence:    must be piecewise continuous on     must be of exponential order for          A function is said to be exponential order if there exists constants and such that       is a linear transform, i.e.,         Evaluate     Evaluate where   Graph of a piecewise function   The graph of a piecewise function with two horizontal segments. From t equals 0 to t equals 3, the graph is on the t-axis at y equals 0, ending with an open circle at (3, 0). For t greater than or equal to 3, the graph is a horizontal line at y equals 2, starting with a closed circle at (3, 2).                                 If represents the Laplace transform of a function then is the inverse Laplace transform of     is a linear transform,                                         Use Theorem to find each of the followings:                 Using (b) in Theorem , should be 3. Thus     Using (e) in Theorem , is Thus            Find      can be written into two expressions:                  Conceptually, the original DE is transformed to another equation in a different space. Ideally, this new equation is easier to solve in the new space. Finally, the solution in the new space is transformed back to the original space using the inverse transformation.   Steps in solving an IVP by the Laplace transform      There are many other transformations and each one is considering a different space, which also means each one is more suitable for solving some particular types of DEs. This is a typical issue for most of algebraic approaches for solving ODEs or PDEs.     Suppose are continuous on , is piecewise continuous on and are of exponential order with as specified in . Then for  where        Use the Laplace transform to solve the IVP        MATHEMATICA     You should be familiar with using MATHEMATICA to verify your algebraic work.     LaplaceTransform[f(t),t,s]   Find using MATHEMATICA.  LaplaceTransform[Cos[4*t - 5], t, s]     InverseLaplaceTransform[F[s],s,t]  Find using MATHEMATICA.  InverseLaplaceTransform[((5*s-1)\/(s^2+7), s, t]         "
+  "body": " Week 1 Handout- Laplace Transform   This is an outline of the topics we covered in the first week of class. You should have Jupyter Notebook , MATHEMATICA , and Octave ready before the 2nd week for practicing and doing assignments.     If is a function defined for , then the integral is the Laplace transform of provided the integral converges.  Sufficient conditions for existence:    must be piecewise continuous on     must be of exponential order for          A function is said to be exponential order if there exists constants and such that       is a linear transform, i.e.,         Evaluate     Evaluate where   Graph of a piecewise function   The graph of a piecewise function with two horizontal segments. From t equals 0 to t equals 3, the graph is on the t-axis at y equals 0, ending with an open circle at (3, 0). For t greater than or equal to 3, the graph is a horizontal line at y equals 2, starting with a closed circle at (3, 2).                             If represents the Laplace transform of a function then is the inverse Laplace transform of     is a linear transform,                                        Use Theorem to find each of the followings:                 Using (b) in Theorem , should be 3. Thus     Using (e) in Theorem , is Thus          Find      can be written into two expressions:                  Conceptually, the original DE is transformed to another equation in a different space. Ideally, this new equation is easier to solve in the new space. Finally, the solution in the new space is transformed back to the original space using the inverse transformation.   Steps in solving an IVP by the Laplace transform      There are many other transformations and each one is considering a different space, which also means each one is more suitable for solving some particular types of DEs. This is a typical issue for most of algebraic approaches for solving ODEs or PDEs.     Suppose are continuous on , is piecewise continuous on and are of exponential order with as specified in . Then for  where      Use the Laplace transform to solve the IVP      MATHEMATICA     You should be familiar with using MATHEMATICA to verify your algebraic work.     LaplaceTransform[f(t),t,s]   Find using MATHEMATICA.  LaplaceTransform[Cos[4*t - 5], t, s]     InverseLaplaceTransform[F[s],s,t]  Find using MATHEMATICA.  InverseLaplaceTransform[((5*s-1)\/(s^2+7), s, t]        "
 },
 {
   "id": "def-laplace",
@@ -55,31 +55,31 @@ var ptx_lunr_docs = [
   "body": "  A function is said to be exponential order if there exists constants and such that    "
 },
 {
-  "id": "week1-handout-2-1-3",
+  "id": "week1-handout-5",
   "level": "2",
-  "url": "week1-handout.html#week1-handout-2-1-3",
+  "url": "week1-handout.html#week1-handout-5",
   "type": "Remark",
   "number": "3",
   "title": "",
   "body": "  is a linear transform, i.e.,   "
 },
 {
-  "id": "week1-handout-2-1-4",
+  "id": "week1-handout-6",
   "level": "2",
-  "url": "week1-handout.html#week1-handout-2-1-4",
+  "url": "week1-handout.html#week1-handout-6",
   "type": "Example",
   "number": "4",
   "title": "",
   "body": "     Evaluate     Evaluate where   Graph of a piecewise function   The graph of a piecewise function with two horizontal segments. From t equals 0 to t equals 3, the graph is on the t-axis at y equals 0, ending with an open circle at (3, 0). For t greater than or equal to 3, the graph is a horizontal line at y equals 2, starting with a closed circle at (3, 2).                          "
 },
 {
-  "id": "week1-handout-3-1",
+  "id": "def-laplace-inverse",
   "level": "2",
-  "url": "week1-handout.html#week1-handout-3-1",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
+  "url": "week1-handout.html#def-laplace-inverse",
+  "type": "Definition",
+  "number": "6",
   "title": "",
-  "body": "inverse Laplace transform "
+  "body": "  If represents the Laplace transform of a function then is the inverse Laplace transform of     is a linear transform,    "
 },
 {
   "id": "thm-laplace-inverse",
@@ -91,27 +91,27 @@ var ptx_lunr_docs = [
   "body": "                                 "
 },
 {
-  "id": "week1-handout-3-3",
+  "id": "week1-handout-9",
   "level": "2",
-  "url": "week1-handout.html#week1-handout-3-3",
+  "url": "week1-handout.html#week1-handout-9",
   "type": "Example",
   "number": "8",
   "title": "",
   "body": " Use Theorem to find each of the followings:                 Using (b) in Theorem , should be 3. Thus     Using (e) in Theorem , is Thus       "
 },
 {
-  "id": "week1-handout-4-1",
+  "id": "week1-handout-10",
   "level": "2",
-  "url": "week1-handout.html#week1-handout-4-1",
+  "url": "week1-handout.html#week1-handout-10",
   "type": "Example",
   "number": "9",
   "title": "",
   "body": "  Find      can be written into two expressions:                "
 },
 {
-  "id": "week1-handout-4-2",
+  "id": "week1-handout-11",
   "level": "2",
-  "url": "week1-handout.html#week1-handout-4-2",
+  "url": "week1-handout.html#week1-handout-11",
   "type": "Remark",
   "number": "10",
   "title": "",
@@ -127,18 +127,18 @@ var ptx_lunr_docs = [
   "body": "  Suppose are continuous on , is piecewise continuous on and are of exponential order with as specified in . Then for  where    "
 },
 {
-  "id": "week1-handout-5-1",
+  "id": "week1-handout-13",
   "level": "2",
-  "url": "week1-handout.html#week1-handout-5-1",
+  "url": "week1-handout.html#week1-handout-13",
   "type": "Example",
   "number": "13",
   "title": "",
   "body": " Use the Laplace transform to solve the IVP     "
 },
 {
-  "id": "week1-handout-6-1",
+  "id": "week1-handout-14",
   "level": "2",
-  "url": "week1-handout.html#week1-handout-6-1",
+  "url": "week1-handout.html#week1-handout-14",
   "type": "Remark",
   "number": "14",
   "title": "<em class=\"alert\">MATHEMATICA<\/em>.",
