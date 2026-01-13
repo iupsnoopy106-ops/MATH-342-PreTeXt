@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<handout xml:id="week1-handout">
+<worksheet xml:id="week1-handout">
   <title>Week 1 Handout- Laplace Transform</title>
-  <page>
-  <paragraphs>
+
+    <introduction>
+    <p>
+      This is an outline of the topics we covered in the first week of class. 
+      You should have <url href="https://www.anaconda.com/docs/psm/on-prem/6.8.0/user/notebook"> Jupyter Notebook</url>, 
+      <url href="https://www.iup.edu/itsupportcenter/get-support/software/mathematica/index.html"> MATHEMATICA</url>,
+      and <url href="https://octave.org/download"> Octave</url> ready before the 2nd week for practicing and doing assignments.
+              
+    </p>
+    </introduction>
+  
     <definition xml:id="def-laplace">
       <statement>
         <p> If <m>f</m> is a function defined for <m> t\geq 0</m>, then the integral 
@@ -110,10 +119,8 @@
 
 
     
-  </paragraphs>
-</page>
-<page>
-  <p>
+
+
     <definition xml:id="def-laplace-inverse">
       <statement>
         <p> If <m>F(s)</m> represents the Laplace transform of a function <m>f(t),</m>
@@ -128,7 +135,7 @@
         </p>
       </statement>
     </definition>
-  </p>
+
   <theorem xml:id="thm-laplace-inverse">
     <statement>
       <p><ol>
@@ -165,8 +172,8 @@
       </p>
     </solution>
   </example>
-</page>
-<page>
+
+
   <example> <statement>
     <p> Find <m>\mathscr{L}^{-1}\left\{\dfrac{2s+8}{s^2-9}\right\}.</m> </p>
   </statement> 
@@ -221,8 +228,7 @@ typical issue for most of algebraic approaches for solving ODEs or PDEs.</p>
     </p>
   </statement>
 </theorem>
-</page>
-<page>
+
 <example> <p>
   Use the Laplace transform to solve the IVP <md>
     y''-4y'+y=6e^{3t}-3e^{-t}, y(0)=1, y'(0)=-1
@@ -231,9 +237,7 @@ typical issue for most of algebraic approaches for solving ODEs or PDEs.</p>
 
  </solution>
 </example>
-</page> 
 
-<page>
   <remark><title><alert>MATHEMATICA</alert></title>
     <statement>  <p> <url href="https://www.iup.edu/itsupportcenter/get-support/software/mathematica"/></p>
 
@@ -261,5 +265,5 @@ typical issue for most of algebraic approaches for solving ODEs or PDEs.</p>
 
     </statement>
   </remark>
-</page>
-</handout>
+
+</worksheet>
