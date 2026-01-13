@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <worksheet xml:id="week1-handout">
-  <title>Week 1 Handout- Laplace Transform</title>
+  <title>Week 1 Handout- Introduction to MATH 342 and Laplace Transform</title>
 
     <introduction>
     <p>
@@ -12,6 +12,37 @@
               
     </p>
     </introduction>
+
+          <ul>
+        <li> <p> Overview </p>
+          <ul>
+            <li> Investigating high dimensional systems using vector analysis </li>
+            <li> Constructing complicated functions using series expansion </li>
+            <li> Modeling and  studying natural phenomena via partial differential
+              equations (PDE) </li>
+            <li> Solving PDEs algebraically and numerically </li>
+            <li> Utilizing appropriate software packages 
+              (<url href="https://www.anaconda.com/docs/psm/on-prem/6.8.0/user/notebook"> Jupyter Notebook</url>,
+               <url href="https://www.iup.edu/itsupportcenter/get-support/software/mathematica/index.html"> MATHEMATICA</url>, 
+               <url href="https://octave.org/download"> Octave</url> ) 
+              for suitable tasks </li>
+          </ul>
+        </li>
+        <li> Why do we need models? </li>
+        <li> <term>All models are wrong. Some are useful. </term>      </li>
+        <li> <p>Steps to create models: </p> 
+      
+          <ol>
+            <li> Observing and recording the system </li>
+            <li> Describe how the system behaves (verbally and mathematically)-create a model </li>
+            <li> Verify whether that model behaves similar (or close enough) to what you observe. If not, modify it.</li>
+            <li> Investigate/Study the system under different conditions using the model</li>
+          </ol>  
+        </li>
+        <li> <p><url href="https://www.comap.com/contests/mcm-icm">COMAP</url> </p></li>
+        <li> <p> Laplace Transform: Definitions, Theorems, Examples, MATHEMATICA       </p>
+        </li>
+      </ul>  
   
     <definition xml:id="def-laplace">
       <statement>
