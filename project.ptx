@@ -15,6 +15,8 @@
     <target name="slides-annotated" source="slides/slides.ptx" format="revealjs"
             publication="publication-slides-annotated.ptx" deploy-dir="slides-annotated"
             output-filename="index.html"/>
+    <target name="web-inst" source="main.ptx" format="html"
+            publication="publication-inst.ptx" />
 
 
 
