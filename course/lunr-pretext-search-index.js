@@ -127,6 +127,15 @@ var ptx_lunr_docs = [
   "body": "MATHEMATICA     You should be familiar with using MATHEMATICA to verify your algebraic work.     LaplaceTransform[f(t),t,s]   Find using MATHEMATICA.  LaplaceTransform[Cos[4*t - 5], t, s]     InverseLaplaceTransform[F[s],s,t]  Find using MATHEMATICA.  InverseLaplaceTransform[((5*s-1)\/(s^2+7), s, t]       "
 },
 {
+  "id": "week2-handout",
+  "level": "1",
+  "url": "week2-handout.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Week 2 Handout- Vector Calculus- Part 1",
+  "body": " Week 2 Handout- Vector Calculus- Part 1   This is an outline of the topics we covered in Week 2. You should have Jupyter Notebook , MATHEMATICA , and Octave ASAP.   "
+},
+{
   "id": "hw1",
   "level": "1",
   "url": "hw1.html",
